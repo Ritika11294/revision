@@ -43,9 +43,9 @@ export const Table = () => {
             <button onClick={() => { filter() }} >Filter by Country</button>
             <button onClick={() => { sorting('asc') }}>Sort Asc</button>
             <button onClick={() => { sorting('desc') }}>Sort Desc</button>
-            <table style={{ border: '1px solid black', margin: '50px' }}></table>
+           
 
-            <table>
+            <table style={{ border: '1px solid black', margin: '50px' }}>
                 <thead>
                     <tr>
                         <th>id</th>
